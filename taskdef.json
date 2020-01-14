@@ -1,0 +1,6 @@
+{
+    "executionRoleArn":"arn:aws:iam::account_ID:role/ecsTaskExecutionRole",
+    "containerDefinitions":[
+      {
+          "name":"AWS-CodePipeline"
+          "image":"029298191954.dkr.ecr.us-east-1.amazonaws.com/docker:latesh"          
