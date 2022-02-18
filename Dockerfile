@@ -1,5 +1,5 @@
 FROM python:latest
-MAINTAINER Basha "govardhan.yaratha@affineanayltics.com"
+#MAINTAINER Basha "govardhan.yaratha@affineanayltics.com"
 COPY . /app
 WORKDIR /app
 RUN pip install -r requirements.txt
