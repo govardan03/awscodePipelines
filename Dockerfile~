@@ -1,5 +1,5 @@
-FROM python:2.7.17-slim-buster
-MAINTAINER govardan "govardan0311@gmail.com"
+FROM python:latest
+#MAINTAINER govardan "govardan0311@gmail.com"
 COPY . /app
 WORKDIR /app
 RUN pip install -r requirements.txt
